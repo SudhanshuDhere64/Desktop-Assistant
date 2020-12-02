@@ -9,8 +9,6 @@ import winshell
 import winsound
 from selenium import webdriver
 
-# import wikipedia
-
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
@@ -236,3 +234,4 @@ if __name__ == '__main__':
 
             button = driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button')
             button.click()
+
